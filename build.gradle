@@ -2,17 +2,14 @@ buildscript {
     repositories {
         mavenLocal()
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
-        maven { url 'http://repository.jboss.org/nexus/content/groups/public' }
-        maven { url 'http://mirrors.ibiblio.org/pub/mirrors/maven2/' }
         mavenCentral()
         jcenter()
     }
 }
 
 plugins {
-    id 'org.springframework.boot' version '2.1.3.RELEASE'
-    id "org.jetbrains.kotlin.jvm" version '1.3.20' false
-    id 'org.jetbrains.kotlin:kotlin-gradle-plugin' version '1.3.20'
+    id "org.springframework.boot" version '2.1.3.RELEASE'
+    id "org.jetbrains.kotlin.jvm" version '1.3.20'
     id 'com.bmuschko.docker-remote-api' version '4.6.2'
 }
 
@@ -99,8 +96,6 @@ configure(allprojects) { project ->
 
     repositories {
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
-        maven { url 'http://repository.jboss.org/nexus/content/groups/public' }
-        maven { url 'http://mirrors.ibiblio.org/pub/mirrors/maven2/' }
         mavenCentral()
         jcenter()
     }
