@@ -1,3 +1,6 @@
-description = "Store Cloud Zuul"
+description = "store-cloud-zuul"
 
-
+dependencies {
+    compile("org.springframework.cloud:spring-cloud-starter-eureka")
+    compile("org.springframework.cloud:spring-cloud-starter-zuul")
+}
