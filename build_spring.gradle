@@ -58,7 +58,7 @@ ext {
 }
 
 configure(allprojects) { project ->
-	group = "org.17xue"
+	group = "org.study.store"
 	version = qualifyVersionIfNecessary(version)
 
 	apply plugin: "java"
