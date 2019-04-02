@@ -84,3 +84,7 @@ target/
 # *.orig
 
 build-repo/
+
+
+### Activemq Data
+activemq-data/
