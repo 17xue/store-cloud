@@ -1,3 +1,14 @@
-description = "Store Cloud Service SSO"
+description = "store-cloud-service-sso"
 
-
+dependencies {
+    compile(project(":store-cloud-service-sso-api"))
+    compile(project(":store-cloud-common-mapper"))
+    compile("org.springframework.cloud:spring-cloud-starter-eureka")
+    compile("org.springframework.cloud:spring-cloud-starter-zipkin")
+    compile("org.springframework.cloud:spring-cloud-starter-hystrix")
+    compile("org.springframework.cloud:spring-cloud-starter-bus-amqp")
+    compile("org.webjars.npm:apollo-client:${apolloclientVersion}")
+//        compile("org.springframework.data:spring-data-redis")
+    compile("org.springframework.boot:spring-boot-starter-redis:${springBootRedisVersion}")
+    compile("org.freemarker:freemarker:2.3.9")
+}

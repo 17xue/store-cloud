@@ -1,1 +1,7 @@
-description = "Store Cloud Service Portal Api"
+description = "store-cloud-serviced-portal-api"
+
+dependencies {
+    compile(project(":store-cloud-common"))
+    compile(project(":store-cloud-common-pojo"))
+    compile("org.springframework.cloud:spring-cloud-starter-feign")
+}

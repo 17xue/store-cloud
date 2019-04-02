@@ -1,3 +1,15 @@
-description = "Store Cloud Web Item"
+description = "store-cloud-web-item"
 
-
+dependencies {
+    compile(project(":store-cloud-service-item-api"))
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.cloud:spring-cloud-starter-eureka")
+    compile("org.webjars.npm:apollo-client:${apolloclientVersion}")
+    compile("org.springframework.cloud:spring-cloud-starter-hystrix")
+    compile("org.springframework.cloud:spring-cloud-starter-bus-amqp")
+    compile("org.springframework.cloud:spring-cloud-starter-zipkin")
+    compile("org.springframework.boot:spring-boot-starter-aop")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.retry:spring-retry")
+    compile("com.piggsoft:beetl-spring-boot-starter:${beetl_starterVersion}")
+}
