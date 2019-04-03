@@ -12,6 +12,6 @@ dependencies {
     compile("org.webjars.npm:apollo-client:${apolloclientVersion}")
 }
 
-bootRepackage {
-    mainClass = "cn.binux.XbinStoreServiceAdminApplication"
-}
+//bootRepackage {
+//    mainClass = "cn.binux.XbinStoreServiceAdminApplication"
+//}
