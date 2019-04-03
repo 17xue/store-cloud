@@ -1,10 +1,9 @@
 package cn.binux.cart.service;
 
-
 import cn.binux.cart.service.hystrix.CartServiceHystrix;
 import cn.binux.pojo.CartInfo;
 import cn.binux.pojo.XbinResult;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,7 +16,6 @@ import java.util.List;
  * @author anonym.
  * @create 2017-05-04
  */
-
 @FeignClient(value = "store-cloud-service-cart",fallback = CartServiceHystrix.class)
 public interface CartService {
 
@@ -49,6 +47,4 @@ public interface CartService {
             @RequestParam("index")      Integer index,
             @RequestParam("cookieUUID") String cookieUUID
     );
-
-
 }
