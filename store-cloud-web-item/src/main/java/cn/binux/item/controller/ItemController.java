@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * 商品查询 Controller
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-04
  */
 

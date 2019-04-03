@@ -1,4 +1,4 @@
-# Name:     xbin-store-cloud-turbine
+# Name:     store-cloud-turbine
 # Time:     2017-05-07
 
 FROM java:8-jre-alpine
@@ -9,8 +9,8 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY xbin-store-cloud-turbine-1.0.0.jar /app
+COPY store-cloud-turbine-1.0.0.jar /app
 
-ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/app/xbin-store-cloud-turbine-1.0.0.jar"]
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/app/store-cloud-turbine-1.0.0.jar"]
 
 EXPOSE 8506

@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 搜索 全局异常处理
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-05 下午3:49
  */
 

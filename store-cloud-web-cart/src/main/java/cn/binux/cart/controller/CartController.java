@@ -29,7 +29,7 @@ import java.util.UUID;
 /**
  * 购物车 Controller
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 

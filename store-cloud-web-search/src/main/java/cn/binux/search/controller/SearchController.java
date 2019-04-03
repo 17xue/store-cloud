@@ -16,7 +16,7 @@ import java.io.UnsupportedEncodingException;
 /**
  * 搜索 Controller
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-04
  */
 

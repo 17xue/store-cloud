@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 拦截用户登录
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-22 下午9:27
  */
 

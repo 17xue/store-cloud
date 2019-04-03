@@ -20,7 +20,7 @@ import java.io.IOException;
 /**
  * 验证码 Controller
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 

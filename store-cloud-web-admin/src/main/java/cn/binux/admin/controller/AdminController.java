@@ -20,7 +20,7 @@ import java.util.Random;
 /**
  * Admin 首页Controller
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-11 下午3:38
  */
 

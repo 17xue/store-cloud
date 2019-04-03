@@ -2,7 +2,8 @@ package cn.binux.admin.controller;
 
 import cn.binux.utils.FastJsonConvert;
 import cn.binux.utils.StorageService;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -21,12 +22,11 @@ import java.util.HashMap;
 @Controller
 @RefreshScope
 public class PictureController {
-
-    private static Logger logger = Logger.getLogger(PictureController.class);
+    private static Logger logger = LoggerFactory.getLogger(PictureController.class);
 
     @Value("${fastdfs.base.url}")
     private String FASTDFS_BASE_URL;
-    
+
     @Autowired
     private StorageService storageService;
 
@@ -43,7 +43,7 @@ public class PictureController {
 
             try {
                 // String uploadUrl = FastDFSClientUtils.upload(uploadFile.getBytes(), extName);
-            	String uploadUrl = storageService.upload(uploadFile.getBytes(), extName);
+                String uploadUrl = storageService.upload(uploadFile.getBytes(), extName);
                 map.put("success", "上传成功");
                 map.put("url", FASTDFS_BASE_URL + uploadUrl);
 
@@ -61,7 +61,7 @@ public class PictureController {
 
             try {
                 //String uploadUrl = FastDFSClientUtils.upload(wangEditorH5File.getBytes(), extName);
-            	String uploadUrl = storageService.upload(wangEditorH5File.getBytes(), extName);
+                String uploadUrl = storageService.upload(wangEditorH5File.getBytes(), extName);
                 String url = FASTDFS_BASE_URL + uploadUrl;
 
                 return url;

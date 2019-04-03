@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat;
 /**
  * 后台用户展示VO
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-11 下午3:57
  */
 

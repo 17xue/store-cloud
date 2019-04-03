@@ -22,7 +22,7 @@ import java.util.UUID;
 /**
  * 用户登录注册 Controller
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 
