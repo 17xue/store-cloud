@@ -8,7 +8,8 @@ import cn.binux.utils.FastJsonConvert;
 import cn.binux.utils.JedisClient;
 import io.swagger.annotations.*;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -18,6 +19,7 @@ import java.util.List;
 
 /**
  * 首页内容Service
+ *
  * @create 2017-05-04
  */
 @Api(value = "API - PortalContentServiceImpl", description = "首页操作")
@@ -25,7 +27,7 @@ import java.util.List;
 @RefreshScope
 public class PortalContentServiceImpl implements PortalContentService {
 
-    private static Logger logger = Logger.getLogger(PortalContentServiceImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(PortalContentServiceImpl.class);
 
     @Autowired
     private TbContentMapper contentMapper;
