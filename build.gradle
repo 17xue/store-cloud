@@ -56,7 +56,7 @@ ext {
     hutoolVersion = "3.0.3"
     swagger2Version = "2.6.1"
     logbackkafkaVersion = "0.1.0"
-    apolloclientVersion = "1.0.0-rc.2"
+    apolloclientVersion = "2.4.12"
 
 
     // spring framework
