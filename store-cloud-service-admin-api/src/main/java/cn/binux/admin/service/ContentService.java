@@ -13,11 +13,11 @@ import java.util.Map;
 /**
  * 内容维护
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-04-27
  */
 
-@FeignClient(value = "xbin-store-cloud-service-admin", fallback = ContentServiceHystrix.class)
+@FeignClient(value = "store-cloud-service-admin", fallback = ContentServiceHystrix.class)
 public interface ContentService {
 
     @RequestMapping(value = "/getCategoryList", method = RequestMethod.POST)

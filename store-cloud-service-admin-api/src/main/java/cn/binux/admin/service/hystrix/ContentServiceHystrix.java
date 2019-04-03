@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 内容维护 熔断处理
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-04-27 上午11:40
  */
 
