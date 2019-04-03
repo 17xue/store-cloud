@@ -3,7 +3,7 @@ package cn.binux.utils;
 /**
  * String编码转换
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-09 下午4:55
  */
 

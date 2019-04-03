@@ -23,7 +23,7 @@ import java.util.Map;
 /**
  * json格式Category转成Java格式
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-14 下午7:59
  */
 
