@@ -1,7 +1,7 @@
 package cn.binux.notify.service;
 
 import cn.binux.notify.service.hystrix.NotifyUserServiceHystrix;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author anonym.
  * @create 2017-05-05
  */
-
-@FeignClient(value = "store-cloud-service-notify",fallback = NotifyUserServiceHystrix.class)
+@FeignClient(value = "store-cloud-service-notify", fallback = NotifyUserServiceHystrix.class)
 public interface NotifyUserService {
     /**
      * 发送短信
