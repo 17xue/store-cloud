@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 商品 Service 实现
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-04
  */
 @Api(value = "API - PortalContentServiceImpl", description = "首页操作")

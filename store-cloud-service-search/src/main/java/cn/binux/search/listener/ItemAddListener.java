@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * 监听商品添加
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-0 下午9:58
  */
 

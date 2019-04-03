@@ -14,11 +14,11 @@ import java.util.List;
 /**
  * 购物车相关操作 Service
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-04
  */
 
-@FeignClient(value = "xbin-store-cloud-service-cart",fallback = CartServiceHystrix.class)
+@FeignClient(value = "store-cloud-service-cart",fallback = CartServiceHystrix.class)
 public interface CartService {
 
     @RequestMapping(value = "/addCart",method = RequestMethod.POST)

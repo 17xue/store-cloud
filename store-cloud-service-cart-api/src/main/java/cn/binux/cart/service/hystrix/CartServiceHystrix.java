@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 购物车服务 熔断处理
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-04 下午11:59
  */
 

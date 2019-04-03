@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xbin-store-cloud-service-sso
+    name: store-cloud-service-sso
 
 security.basic.enabled: false
 

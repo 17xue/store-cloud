@@ -23,7 +23,7 @@ import java.util.*;
 /**
  * 用户登录相关服务 Service 实现
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 

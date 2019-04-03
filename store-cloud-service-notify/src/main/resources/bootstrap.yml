@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xbin-store-cloud-service-notify
+    name: store-cloud-service-notify
 
 security.basic.enabled: false
 

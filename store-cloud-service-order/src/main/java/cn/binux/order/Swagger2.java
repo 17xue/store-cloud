@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Swagger2的配置类
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-04-08
  */
 
@@ -45,7 +45,7 @@ public class Swagger2 {
 
     private ApiInfo apiInfo() {
         Contact contact=new Contact("Binux",
-                "http://git.oschina.net/binu/xbin-store","xu.binux@gmail.com");
+                "http://git.oschina.net/binu/store","xu.binux@gmail.com");
 
         return new ApiInfoBuilder()
                 .title(title + " RESTful APIs")

@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * 用户通知服务接口
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 
-@FeignClient(value = "xbin-store-cloud-service-notify",fallback = NotifyUserServiceHystrix.class)
+@FeignClient(value = "store-cloud-service-notify",fallback = NotifyUserServiceHystrix.class)
 public interface NotifyUserService {
     /**
      * 发送短信

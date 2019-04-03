@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * 订单服务 熔断处理
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 

@@ -18,7 +18,7 @@ import java.util.HashMap;
 /**
  * 用户通知服务实现
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05
  */
 

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * 用户通知 熔断处理
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-05 下午12:35
  */
 

@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Solr操作Mapper
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-04 下午4:46
  */
 

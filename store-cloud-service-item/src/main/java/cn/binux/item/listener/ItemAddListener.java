@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 /**
  * 监听商品添加 生成商品页面静态文件
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-06 下午8:19
  */
 

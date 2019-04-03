@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xbin-store-cloud-service-search
+    name: store-cloud-service-search
   data:
     solr:
       host: http://192.168.125.131:8080/solr/#/collection1

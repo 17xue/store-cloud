@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xbin-store-cloud-service-order
+    name: store-cloud-service-order
 
 security.basic.enabled: false
 

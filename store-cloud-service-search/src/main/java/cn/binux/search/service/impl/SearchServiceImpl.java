@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * Solr Service 实现类
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-05-03
  */
 

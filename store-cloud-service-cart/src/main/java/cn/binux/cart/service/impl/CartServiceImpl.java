@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * 购物车操作实现
  *
- * @author xubin.
+ * @author anonym.
  * @create 2017-02-22 下午12:51
  */
 

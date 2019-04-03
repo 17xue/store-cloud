@@ -53,4 +53,4 @@ redisKey:
 
 
 # 静态页面生成目录
-static_html_path: /Volumes/HGST/IdeaProjects/xbin-store/xbin-store-service-item/item/
+static_html_path: /Volumes/HGST/IdeaProjects/store/store-service-item/item/
