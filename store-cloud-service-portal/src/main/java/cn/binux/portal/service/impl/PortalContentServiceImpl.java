@@ -70,7 +70,7 @@ public class PortalContentServiceImpl implements PortalContentService {
             }
 
         } catch (Exception e) {
-            logger.error(e);
+            logger.error(e.getMessage());
         }
 
 
@@ -86,7 +86,7 @@ public class PortalContentServiceImpl implements PortalContentService {
             logger.info("=======>添加缓存");
             jedisClient.hset(INDEX_AD, bigAdIndex + "", FastJsonConvert.convertObjectToJSON(list));
         } catch (Exception e) {
-            logger.error(e);
+            logger.error(e.getMessage());
         }
 
         return list;
