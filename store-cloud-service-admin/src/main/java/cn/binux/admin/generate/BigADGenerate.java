@@ -1,6 +1,5 @@
 package cn.binux.admin.generate;
 
-
 import cn.binux.mapper.TbIndexSlideAdMapper;
 import cn.binux.pojo.TbIndexSlideAd;
 import cn.binux.utils.FastDFSClientUtils;
@@ -97,7 +96,7 @@ public class BigADGenerate {
         }
     }
 
-    public static String  saveToFastDFS(String destUrl) {
+    public static String saveToFastDFS(String destUrl) {
         String saveurl = "http://192.168.125.132/";
         ByteArrayOutputStream baos = null;
         try {
@@ -121,8 +120,4 @@ public class BigADGenerate {
         }
         return "";
     }
-
-
-
-
 }
