@@ -102,21 +102,18 @@ configure(allprojects) { project ->
 //    }
 //    apply plugin: 'docker'
 
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
-    
-//    compileJava {
-//        sourceCompatibility = 1.8
-//        targetCompatibility = 1.8
-//        options.encoding = "UTF-8"
-//    }
-//
-//    compileTestJava {
-//        sourceCompatibility = 1.8
-//        targetCompatibility = 1.8
-//        options.encoding = "UTF-8"
-//        options.compilerArgs += "-parameters"
-//    }
+    compileJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = "UTF-8"
+    }
+
+    compileTestJava {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+        options.encoding = "UTF-8"
+        options.compilerArgs += "-parameters"
+    }
 
     compileKotlin {
         kotlinOptions.jvmTarget = "1.8"
