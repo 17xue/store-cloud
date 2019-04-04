@@ -8,7 +8,7 @@ import zipkin.server.EnableZipkinServer;
 @EnableZipkinServer
 public class SleuthApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SleuthApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SleuthApplication.class, args);
+    }
 }
