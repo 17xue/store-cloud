@@ -18,14 +18,14 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableDiscoveryClient
 @EnableTransactionManagement
 @MapperScan(basePackages = "cn.binux.mapper")
-public class XbinStoreServiceOrderApplication {
+public class StoreServiceOrderApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(XbinStoreServiceOrderApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(StoreServiceOrderApplication.class, args);
+    }
 
-	@Bean
-	public JedisClient jedisClient() {
-		return new JedisClientSingle();
-	}
+    @Bean
+    public JedisClient jedisClient() {
+        return new JedisClientSingle();
+    }
 }
