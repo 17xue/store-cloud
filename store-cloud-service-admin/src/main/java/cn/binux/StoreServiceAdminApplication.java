@@ -15,9 +15,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 //@EnableApolloConfig
 @MapperScan(basePackages = "cn.binux.mapper")
-public class XbinStoreServiceAdminApplication {
+public class StoreServiceAdminApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(XbinStoreServiceAdminApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(StoreServiceAdminApplication.class, args);
+    }
 }

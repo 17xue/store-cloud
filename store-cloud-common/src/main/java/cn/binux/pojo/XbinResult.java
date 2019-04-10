@@ -73,7 +73,4 @@ public class XbinResult {
     public void setData(Object data) {
         this.data = data;
     }
-
-
-
 }

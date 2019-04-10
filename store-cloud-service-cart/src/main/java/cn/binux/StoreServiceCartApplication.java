@@ -18,14 +18,14 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 //@EnableApolloConfig
 @EnableTransactionManagement
 @MapperScan(basePackages = "cn.binux.mapper")
-public class XbinStoreServiceCartApplication {
+public class StoreServiceCartApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(XbinStoreServiceCartApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(StoreServiceCartApplication.class, args);
+    }
 
-	@Bean
-	public JedisClient jedisClient() {
-		return new JedisClientSingle();
-	}
+    @Bean
+    public JedisClient jedisClient() {
+        return new JedisClientSingle();
+    }
 }
