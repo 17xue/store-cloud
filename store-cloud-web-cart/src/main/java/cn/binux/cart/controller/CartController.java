@@ -162,7 +162,8 @@ public class CartController {
      * @return
      */
     @RequestMapping("/decreOrIncre")
-    public @ResponseBody XbinResult decreOrIncre(Long pid, Integer pcount,Integer type,Integer index, HttpServletRequest request, HttpServletResponse response, Model model) {
+    public @ResponseBody
+    XbinResult decreOrIncre(Long pid, Integer pcount, Integer type, Integer index, HttpServletRequest request, HttpServletResponse response, Model model) {
         String cookieUUID = CookieUtils.getCookieValue(request, Const.CART_KEY);
         if (StringUtils.isBlank(cookieUUID)) {
 

@@ -7,16 +7,15 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Configuration;
 
-
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
 @EnableHystrix
 @Configuration
 //@EnableApolloConfig
-public class XbinStoreWebAdminApplication {
+public class StoreWebPortalApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XbinStoreWebAdminApplication.class, args);
+        SpringApplication.run(StoreWebPortalApplication.class, args);
     }
 }

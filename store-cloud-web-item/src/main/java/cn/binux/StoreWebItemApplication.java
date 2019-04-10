@@ -13,9 +13,9 @@ import org.springframework.context.annotation.Configuration;
 @EnableHystrix
 @Configuration
 //@EnableApolloConfig
-public class XbinStoreWebItemApplication {
+public class StoreWebItemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XbinStoreWebItemApplication.class, args);
+        SpringApplication.run(StoreWebItemApplication.class, args);
     }
 }

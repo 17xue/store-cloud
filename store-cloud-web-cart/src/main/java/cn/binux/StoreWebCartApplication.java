@@ -16,10 +16,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableHystrix
 //@EnableApolloConfig
-public class XbinStoreWebCartApplication {
+public class StoreWebCartApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XbinStoreWebCartApplication.class, args);
+        SpringApplication.run(StoreWebCartApplication.class, args);
     }
 
     @Bean
