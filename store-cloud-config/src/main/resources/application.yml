@@ -14,7 +14,7 @@ spring:
       label: master
       server:
         git:
-          uri: ${git.uri:http://admin@localhost:8078/r/config-server.git}
-          username: ${git.username:admin}
-          password: ${git.password:admin}
-          search-paths: ${git.paths:*}
+          uri: https://github.com/17xue/store-cloud.git
+          username: ${git.username:xdasier}
+          password: ${git.password:xing381201}
+          search-paths: config/*
