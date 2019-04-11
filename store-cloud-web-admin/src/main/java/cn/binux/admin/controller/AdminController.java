@@ -125,13 +125,15 @@ public class AdminController {
     }
 
     @RequestMapping("/save/category")
-    public @ResponseBody XbinResult saveCategory(String id, String name, Integer sort_order) {
+    public @ResponseBody
+    XbinResult saveCategory(String id, String name, Integer sort_order) {
 
 
         return contentService.saveCategory(id, name, sort_order);
     }
     @RequestMapping("/save/category/secondary")
-    public @ResponseBody XbinResult saveCategorySecondary(TbCategorySecondary categorySecondary) {
+    public @ResponseBody
+    XbinResult saveCategorySecondary(TbCategorySecondary categorySecondary) {
 
 
         return contentService.saveCategorySecondary(categorySecondary);

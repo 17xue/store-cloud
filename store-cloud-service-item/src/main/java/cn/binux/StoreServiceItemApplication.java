@@ -13,20 +13,19 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableHystrix
 @Configuration
-//@EnableApolloConfig
 @SpringBootApplication
 @EnableDiscoveryClient
+//@EnableApolloConfig
 @EnableTransactionManagement
 @MapperScan(basePackages = "cn.binux.mapper")
-public class XbinStoreServicePortalApplication {
+public class StoreServiceItemApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(XbinStoreServicePortalApplication.class, args);
+    public static void main(String[] args) {
+        SpringApplication.run(StoreServiceItemApplication.class, args);
+    }
 
-	}
-
-	@Bean
-	public JedisClient jedisClient() {
-		return new JedisClientSingle();
-	}
+    @Bean
+    public JedisClient jedisClient() {
+        return new JedisClientSingle();
+    }
 }

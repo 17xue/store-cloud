@@ -1,29 +1,21 @@
 package cn.binux;
 
-import cn.binux.utils.JedisClient;
-import cn.binux.utils.impl.JedisClientSingle;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@Configuration
 @EnableHystrix
+@Configuration
 //@EnableApolloConfig
-public class XbinStoreWebCartApplication {
+public class StoreWebSearchApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(XbinStoreWebCartApplication.class, args);
-    }
-
-    @Bean
-    public JedisClient jedisClient() {
-        return new JedisClientSingle();
+        SpringApplication.run(StoreWebSearchApplication.class, args);
     }
 }
