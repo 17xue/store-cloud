@@ -16,5 +16,5 @@ spring:
         git:
           uri: https://github.com/17xue/store-cloud.git
           username: ${git.username:xdasier}
-          password: ${git.password:xing381201}
+          password: ${git.password:111}
           search-paths: config/*
